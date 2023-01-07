@@ -21,7 +21,7 @@ function executaFuncao (funcao) {
 
 executaFuncao(souUmDado);
 
-// Arrow Function - Arrow Function não tem args
+// Arrow Function - Arrow Function não tem args -> args != params
 
 const funcaoArrow = () => {
     console.log("Sou uma arrow function");
