@@ -42,7 +42,7 @@ class ValidaCpf{
     }
 }
 
-const cp1 = new ValidaCpf("197.951.997-81")
+const cp1 = new ValidaCpf("02704891778")
 
 console.log(cp1.validar());
 
