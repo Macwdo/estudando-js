@@ -36,3 +36,10 @@ const pessoaMaisVelha = pessoas.reduce((count, value) => {
     return value;
 });
 console.log(pessoaMaisVelha);
+
+
+const numerosFMR = numbers.filter(value => value % 2 === 0)
+.map(value => value ** 2)
+.reduce((counter, value) => counter + value);
+
+console.log(numerosFMR);
