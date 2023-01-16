@@ -15,4 +15,4 @@ class Home {
 
 }
 
-module.exports = Home;
+module.exports = HomeModel;
